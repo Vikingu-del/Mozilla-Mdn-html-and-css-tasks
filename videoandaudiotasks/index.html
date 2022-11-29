@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <header>
+        <H1>THIS IS THE VIDEO</H1>
+        <video controls width="320" height="240" muted poster="media/poster.png">
+            <source src="media/rabbit320.webm" type="video/webm">
+            <source src="media/rabbit320.mp4" type="video/mp4">
+            <track kind="subtitles" src="vtt/sintel-en.vtt.txt" srclang="en">
+            <p>
+                Your browser doesn't support this video. Here is a
+                <a href="media/rabbit320.mp4">link to the video</a> instead.
+            </p>
+        </video>
+    </header>
+    <main>
+        <iframe width="498" height="210" src="https://www.youtube.com/embed/H41hcbn1AaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <object data="media/net-intro.pdf" type="application/pdf" width="1160" height="200">
+            <p>
+                You don't have a PDF plugin, but you can
+        <a href="mypdf.pdf">download the PDF file. </a>
+            </p>
+        </object>
+    </main>
+    <footer>
+        <H1>THIS IS THE AUDIO</H1>
+        <audio
+        controls
+        muted>
+        <source src="media/viper.oga" type="audio/oga"> 
+        <source src="media/viper.mp3" type="audio/mp3">
+        <p>
+            Your browser doesn't support this audio. Here is a
+            <a href="media/viper.mp3">link to the audio</a> instead.
+        </p>
+        </audio>
+    </footer>
+</body>
+</html>
